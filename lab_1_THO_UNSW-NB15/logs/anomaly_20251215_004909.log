@@ -1,0 +1,3 @@
+2025-12-15 00:49:09,436 - anomaly_detection - INFO - === DETECT: модель artifacts/models/isolation-forest_model.joblib ===
+2025-12-15 00:49:16,292 - anomaly_detection - WARNING - В тестовых данных отсутствуют признаки: ['ct_src_ltm']
+2025-12-15 00:49:16,300 - anomaly_detection - INFO - Детекция на 82332 записях, признаков: 15

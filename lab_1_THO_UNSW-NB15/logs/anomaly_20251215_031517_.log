@@ -1,0 +1,13 @@
+2025-12-15 03:15:17,357 - anomaly_detection - INFO - === EVALUATE: расчёт базовых метрик ===
+2025-12-15 03:15:17,387 - anomaly_detection - INFO - Precision: 0.3217
+2025-12-15 03:15:17,387 - anomaly_detection - INFO - Recall:    0.1031
+2025-12-15 03:15:17,387 - anomaly_detection - INFO - ROC-AUC:   0.6534
+2025-12-15 03:15:17,389 - anomaly_detection - INFO - Confusion matrix (tn, fp, fn, tp): 27149, 9851, 40659, 4673
+2025-12-15 03:15:17,407 - anomaly_detection - INFO - Average Precision (AP): 0.6543
+2025-12-15 03:15:17,417 - anomaly_detection - INFO - precision@10:     1.0000
+2025-12-15 03:15:17,417 - anomaly_detection - INFO - precision@50:     0.9000
+2025-12-15 03:15:17,418 - anomaly_detection - INFO - precision@100:    0.8800
+2025-12-15 03:15:17,418 - anomaly_detection - INFO - precision@N_anom: 0.6721 (N=45332)
+2025-12-15 03:15:17,428 - anomaly_detection - INFO - FPR@TPR=0.90: 0.7481
+2025-12-15 03:15:17,428 - anomaly_detection - INFO - FPR@TPR=0.95: 0.8956
+2025-12-15 03:15:17,911 - anomaly_detection - INFO - Метрики и графики сохранены в artifacts\reports

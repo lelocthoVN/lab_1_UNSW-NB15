@@ -1,0 +1,6 @@
+2025-12-15 02:20:37,066 - anomaly_detection - INFO - === DETECT: модель artifacts/models/isolation-forest_model.joblib ===
+2025-12-15 02:20:37,390 - anomaly_detection - INFO - Детекция на 82332 записях, признаков: 27
+2025-12-15 02:20:40,651 - anomaly_detection - INFO - Precision: 0.3217
+2025-12-15 02:20:40,651 - anomaly_detection - INFO - Recall: 0.1031
+2025-12-15 02:20:42,029 - anomaly_detection - INFO - Найдено аномалий: 14524 из 82332 (17.64%)
+2025-12-15 02:20:42,029 - anomaly_detection - INFO - Результаты сохранены в artifacts\predictions.csv

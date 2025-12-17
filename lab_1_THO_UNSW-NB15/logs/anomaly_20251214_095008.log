@@ -1,0 +1,7 @@
+2025-12-14 09:50:08,401 - anomaly_detection - INFO - === TRAIN: модель isolation-forest, tune_params=True ===
+2025-12-14 09:50:23,773 - anomaly_detection - INFO - Всего признаков: 16, после exclude: 16
+2025-12-14 09:50:23,773 - anomaly_detection - INFO - Числовые: 16, категориальные: 0
+2025-12-14 09:50:23,826 - anomaly_detection - INFO - Запуск GridSearchCV с параметрами: {'model__n_estimators': [100, 200, 300], 'model__contamination': [0.05, 0.1, 0.15]}
+2025-12-14 09:50:39,448 - anomaly_detection - INFO - Лучшие параметры: {'model__contamination': 0.15, 'model__n_estimators': 300}, лучший precision/recall: 0.4083
+2025-12-14 09:50:39,535 - anomaly_detection - INFO - Модель сохранена в artifacts\models\isolation-forest_model.joblib
+2025-12-14 09:50:39,535 - anomaly_detection - INFO - Метаданные сохранены в artifacts\models\isolation-forest_metadata.yaml

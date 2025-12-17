@@ -1,0 +1,5 @@
+2025-12-14 09:53:37,521 - anomaly_detection - INFO - === TRAIN: модель lof, tune_params=False ===
+2025-12-14 09:53:40,350 - anomaly_detection - INFO - Всего признаков: 16, после exclude: 16
+2025-12-14 09:53:40,351 - anomaly_detection - INFO - Числовые: 16, категориальные: 0
+2025-12-14 09:53:42,861 - anomaly_detection - INFO - Модель сохранена в artifacts\models\lof_model.joblib
+2025-12-14 09:53:42,862 - anomaly_detection - INFO - Метаданные сохранены в artifacts\models\lof_metadata.yaml

@@ -1,0 +1,65 @@
+features:
+- dur
+- sbytes
+- dbytes
+- sttl
+- dttl
+- spkts
+- dpkts
+- swin
+- dwin
+- tcprtt
+- synack
+- ackdat
+- sload
+- dload
+- sloss
+- dloss
+- sjit
+- djit
+- ct_state_ttl
+- ct_srv_src
+- ct_srv_dst
+- ct_dst_ltm
+- ct_src_ltm
+- trans_depth
+- proto
+- service
+- state
+median_map:
+  ackdat: 0.0
+  ct_dst_ltm: 2.0
+  ct_src_ltm: 3.0
+  ct_srv_dst: 4.0
+  ct_srv_src: 5.0
+  ct_state_ttl: 1.0
+  dbytes: 164.0
+  djit: 0.0
+  dload: 1447.022705
+  dloss: 0.0
+  dpkts: 2.0
+  dttl: 29.0
+  dur: 0.001582
+  dwin: 0.0
+  sbytes: 430.0
+  sjit: 0.0
+  sload: 879674.75
+  sloss: 0.0
+  spkts: 2.0
+  sttl: 254.0
+  swin: 0.0
+  synack: 0.0
+  tcprtt: 0.0
+  trans_depth: 0.0
+model_params:
+  bootstrap: false
+  contamination: 0.15
+  max_features: 1.0
+  max_samples: auto
+  n_estimators: 300
+  n_jobs: -1
+  random_state: 42
+  verbose: 0
+  warm_start: false
+model_type: isolation-forest
+timestamp: '2025-12-15T02:16:26.822843'

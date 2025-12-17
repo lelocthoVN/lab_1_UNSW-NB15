@@ -1,0 +1,7 @@
+2025-12-15 03:00:01,662 - anomaly_detection - INFO - Загрузка модели isolation-forest из artifacts\models\isolation-forest_model.joblib
+2025-12-15 03:00:04,585 - anomaly_detection - INFO - Загрузка модели lof из artifacts\models\lof_model.joblib
+2025-12-15 03:03:58,884 - anomaly_detection - INFO - Загрузка модели one-class-svm из artifacts\models\one-class-svm_model.joblib
+2025-12-15 03:04:21,484 - anomaly_detection - INFO - Precision: 0.4338
+2025-12-15 03:04:21,484 - anomaly_detection - INFO - Recall: 0.0860
+2025-12-15 03:04:23,050 - anomaly_detection - INFO - Энсембль завершён: моделей=3, consensus_anomalies=8986 (10.91%)
+2025-12-15 03:04:23,061 - anomaly_detection - INFO - Результаты энсембля сохранены в artifacts\predictions_ensemble.csv

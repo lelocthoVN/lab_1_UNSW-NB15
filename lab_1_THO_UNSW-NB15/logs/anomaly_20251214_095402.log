@@ -1,0 +1,5 @@
+2025-12-14 09:54:02,411 - anomaly_detection - INFO - === TRAIN: модель one-class-svm, tune_params=False ===
+2025-12-14 09:54:05,190 - anomaly_detection - INFO - Всего признаков: 16, после exclude: 16
+2025-12-14 09:54:05,191 - anomaly_detection - INFO - Числовые: 16, категориальные: 0
+2025-12-14 09:54:11,700 - anomaly_detection - INFO - Модель сохранена в artifacts\models\one-class-svm_model.joblib
+2025-12-14 09:54:11,700 - anomaly_detection - INFO - Метаданные сохранены в artifacts\models\one-class-svm_metadata.yaml

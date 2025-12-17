@@ -1,0 +1,65 @@
+features:
+- dur
+- sbytes
+- dbytes
+- sttl
+- dttl
+- spkts
+- dpkts
+- swin
+- dwin
+- tcprtt
+- synack
+- ackdat
+- sload
+- dload
+- sloss
+- dloss
+- sjit
+- djit
+- ct_state_ttl
+- ct_srv_src
+- ct_srv_dst
+- ct_dst_ltm
+- ct_src_ltm
+- trans_depth
+- proto
+- service
+- state
+median_map:
+  ackdat: 0.0
+  ct_dst_ltm: 2.0
+  ct_src_ltm: 3.0
+  ct_srv_dst: 4.0
+  ct_srv_src: 5.0
+  ct_state_ttl: 1.0
+  dbytes: 162.0
+  djit: 0.0
+  dload: 1408.158081
+  dloss: 0.0
+  dpkts: 2.0
+  dttl: 29.0
+  dur: 0.0015379999999999999
+  dwin: 0.0
+  sbytes: 424.0
+  sjit: 0.0
+  sload: 866350.96875
+  sloss: 0.0
+  spkts: 2.0
+  sttl: 254.0
+  swin: 0.0
+  synack: 0.0
+  tcprtt: 0.0
+  trans_depth: 0.0
+model_params:
+  algorithm: auto
+  contamination: 0.1
+  leaf_size: 30
+  metric: minkowski
+  metric_params: null
+  n_jobs: null
+  n_neighbors: 20
+  novelty: true
+  p: 2
+model_type: lof
+timestamp: '2025-12-15T02:18:00.342026'

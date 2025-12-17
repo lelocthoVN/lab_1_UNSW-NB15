@@ -1,0 +1,4 @@
+2025-12-12 15:46:04,206 - anomaly_detection - INFO - === EDA: загрузка данных ===
+2025-12-12 15:46:08,604 - anomaly_detection - INFO - Размер train-датасета: (50000, 183)
+2025-12-12 15:46:11,035 - anomaly_detection - INFO - Анализ выбросов...
+2025-12-12 15:46:12,025 - anomaly_detection - INFO - EDA завершён, артефакты в artifacts\eda

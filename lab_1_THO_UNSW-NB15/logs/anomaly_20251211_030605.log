@@ -1,0 +1,4 @@
+2025-12-11 03:06:05,210 - anomaly_detection - INFO - === EDA: загрузка данных ===
+2025-12-11 03:06:09,862 - anomaly_detection - INFO - Размер train-датасета: (50000, 183)
+2025-12-11 03:06:10,806 - anomaly_detection - INFO - Key features for distribution plots: ['id', 'dur', 'spkts', 'dpkts', 'rate', 'sttl', 'dttl', 'sload', 'dload', 'sinpkt', 'dinpkt', 'sjit', 'djit', 'swin', 'stcpb', 'dtcpb', 'tcprtt', 'smean', 'dmean', 'trans_depth', 'response_body_len', 'ct_srv_src', 'ct_state_ttl', 'ct_dst_ltm', 'is_ftp_login', 'ct_flw_http_mthd', 'ct_src_ltm', 'label', 'total_bytes']
+2025-12-11 03:06:10,809 - anomaly_detection - INFO - Number of features selected for distribution plots: 29
